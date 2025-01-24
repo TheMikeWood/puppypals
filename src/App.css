@@ -1,0 +1,75 @@
+.App {
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.puppy-list {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.puppy-item {
+  font-size: 1.2rem;
+  color: #007bff;
+  cursor: pointer;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.puppy-item:hover {
+  background: #e7f3ff;
+  transform: scale(1.02);
+}
+
+.featured-puppy {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.featured-puppy h2 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.featured-puppy ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featured-puppy ul li {
+  font-size: 1rem;
+  color: #555;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.featured-puppy ul li:last-child {
+  border-bottom: none;
+}
