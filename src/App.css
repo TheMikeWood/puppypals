@@ -3,10 +3,25 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  background-color: #fdfdfd;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Add transparency for a layered effect */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../public/pexels-lum3n-44775-406014.jpg") no-repeat center
+    center fixed; /* Background image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  color: #333;
 }
 
 .app-title {
