@@ -34,6 +34,7 @@ function App() {
         <div className="featured-puppy">
           <h2>{featuredPup.name}</h2>
           <ul>
+            <li>Id: {featuredPup.id}</li>
             <li>Age: {featuredPup.age}</li>
             <li>Email: {featuredPup.email}</li>
           </ul>
